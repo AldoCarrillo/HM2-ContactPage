@@ -1,16 +1,22 @@
 
+
+/*backgorund img*/
 body{
     background-color: ghostwhite;
     background-image: url("background.jfif");
 }
+
+/*row to separete  info*/
 .row{
     margin-left: 0;
 }
 
+/*big container of the webpage*/
 #MainContainer{
     max-width: 95%;
 }
 
+/*h1 header*/
 #h1container{
     margin-right: 0;
     padding-right: 0;
@@ -33,6 +39,7 @@ h1{
     padding-left: 0;
 }
  
+/*Navigation bar with the 3 pages links*/
 #navbar {
 background-color: lightgrey;
 font-size: large;
@@ -62,6 +69,7 @@ font-size: large;
 }
 
 
+/*container just for portafolio page*/
 #PortafolioContainer{
     background-color: lightgrey;
     width: 70%;
@@ -71,6 +79,7 @@ font-size: large;
 
 }
 
+/*info container for contact and about me page*/
 #InfoContainer {
     margin: 0;
     padding: 0;
@@ -81,6 +90,7 @@ font-size: large;
     width: 70%;
 }
 
+/*h2 header for all 3 pages*/
 #h2aboutme
 {
     color: #0062cc;
@@ -88,6 +98,7 @@ font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*line devider of h2*/
 hr {
     display: block;
     margin-top: 0.5em;
@@ -100,12 +111,14 @@ hr {
     border-radius: 1px;
   }
 
+  /*image about my self*/
 #aboutmeImage {  
     padding: 0;
     max-width: fit-content;
 
 }
 
+/*all the text int the info section*/
 #aboutmetext {
     color: #454545;
     font-size: medium;
@@ -128,6 +141,7 @@ hr {
     margin-bottom: 25px;
 }
 
+/*h3 header for the images*/
 h3{
     background-color: #0062cc;
     width: 300px;
@@ -139,7 +153,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/*footer of the webpage*/
 #sticky-footer {
     flex-shrink: none;
     background-color: lightgrey;
@@ -148,7 +162,7 @@ h3{
     min-width: 100%;
   }
 
-
+/*media Sizes for different screens*/
   @media only screen and (max-width: 1150px) {
     
     #aboutmetext {
